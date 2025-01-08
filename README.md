@@ -37,3 +37,15 @@ module.exports = {
     require('daisyui'),
   ],
 }
+
+- Install axios
+npm i axios
+
+- cors install in backend and add middleware with configuration : origin(frontend url), credentials : true
+
+- while making an api call from frontend, pass axios => {withCredentials : true}
+
+- React Redux
+* Install @reduxjs/toolkit, react-redux
+* configureStore => Provider to the root => createSlice => name, initialState, reducers, => export default xyzSlice.reducer, export const {} = xyzSlice.actions
+* add the required slice to the app store
